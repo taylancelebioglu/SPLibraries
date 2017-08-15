@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePoint.Libraries.Entity", "SharePoint.Libraries.Entity\SharePoint.Libraries.Entity.csproj", "{676B9781-E0EE-4FBD-83A6-4BFE036C825A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{C67C036B-C29D-43C4-AB5A-F46C35F0CAD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePointTestConsole", "SharePointTestConsole\SharePointTestConsole.csproj", "{F2C0211F-1206-44B9-9D69-0D956998738D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,15 @@ Global
 		{676B9781-E0EE-4FBD-83A6-4BFE036C825A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{676B9781-E0EE-4FBD-83A6-4BFE036C825A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{676B9781-E0EE-4FBD-83A6-4BFE036C825A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C0211F-1206-44B9-9D69-0D956998738D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C0211F-1206-44B9-9D69-0D956998738D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C0211F-1206-44B9-9D69-0D956998738D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C0211F-1206-44B9-9D69-0D956998738D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F2C0211F-1206-44B9-9D69-0D956998738D} = {C67C036B-C29D-43C4-AB5A-F46C35F0CAD8}
 	EndGlobalSection
 EndGlobal
