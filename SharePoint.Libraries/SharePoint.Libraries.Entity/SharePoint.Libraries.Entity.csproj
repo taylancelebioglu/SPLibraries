@@ -11,6 +11,8 @@
     <AssemblyName>SharePoint.Libraries.Entity</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <Authors>Taylan Celebioglu</Authors>
+    <Description>Useful entity model for SharePoint 2016 CSOM API</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -28,6 +30,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\SharePoint.Libraries.Entity.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
@@ -76,6 +79,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\SharePointLibraries_Entity_Key_File.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\spentity_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SharePoint.Libraries.Entity</id>
+    <version>1.0.0.0</version>
+    <title>SharePoint Entity</title>
+    <authors>Taylan Celebioglu</authors>
+    <owners>Taylan Celebioglu</owners>
+    <licenseUrl>GNU General Public License</licenseUrl>
+    <projectUrl>https://github.com/taylancelebioglu/SPLibraries</projectUrl>
+    <iconUrl></iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A useful entity mapper for SharePoint 2016 SSOM API</description>
+    <releaseNotes>Latest stable release, working with various projects.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>SharePoint 2016 Entity Mapper DAL SPListItem SPList ListItem</tags>
+    <!--<dependencies>
+      <dependency id="Newtonsoft.Json" version="8.0.3" />
+    </dependencies>-->
+  </metadata>
+  <!--<files>
+    <file src="FolderUnderWhereNugetEXE\FileName.txt" target="content\FileName.txt" />
+  <file src="FolderUnderWhereNugetEXE\FileName.dll" target="lib\FileName.txt" />
+  </files>-->
+</package>
