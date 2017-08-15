@@ -2,13 +2,13 @@
 <package >
   <metadata>
     <id>SharePoint.Libraries.Entity</id>
-    <version>1.0.0.0</version>
+    <version>1.0.0</version>
     <title>SharePoint Entity</title>
     <authors>Taylan Celebioglu</authors>
     <owners>Taylan Celebioglu</owners>
-    <licenseUrl>GNU General Public License</licenseUrl>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.en.html</licenseUrl>
     <projectUrl>https://github.com/taylancelebioglu/SPLibraries</projectUrl>
-    <iconUrl></iconUrl>
+    <iconUrl>https://github.com/taylancelebioglu/SPLibraries/blob/master/SharePoint.Libraries/SharePoint.Libraries.Entity/Properties/spentity_icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A useful entity mapper for SharePoint 2016 SSOM API</description>
     <releaseNotes>Latest stable release, working with various projects.</releaseNotes>
