@@ -42,7 +42,7 @@ namespace SharePoint.Libraries.Entity
 
             if (objectType.Equals(typeof(SPFieldLookupValueCollection)))
             {
-                returnValue = new SPFieldLookupValueCollection(value as string);
+                returnValue = value as SPFieldLookupValueCollection;
             }
             else
             {
