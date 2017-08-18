@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{3C614C
 		nuget.txt = nuget.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePoint.Libraries.Helper", "SharePoint.Libraries.Helper\SharePoint.Libraries.Helper.csproj", "{4F699E85-790A-4429-9291-3EE1AD0E2EF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,10 @@ Global
 		{F2C0211F-1206-44B9-9D69-0D956998738D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2C0211F-1206-44B9-9D69-0D956998738D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2C0211F-1206-44B9-9D69-0D956998738D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F699E85-790A-4429-9291-3EE1AD0E2EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F699E85-790A-4429-9291-3EE1AD0E2EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F699E85-790A-4429-9291-3EE1AD0E2EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F699E85-790A-4429-9291-3EE1AD0E2EF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

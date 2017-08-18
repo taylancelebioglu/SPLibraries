@@ -23,6 +23,10 @@ namespace SharePointTestConsole
                     ImagesLibraryRepository libraryRep = new ImagesLibraryRepository(web);
                     IList<LibraryEntity> imagesDocs = libraryRep.GetItems();
 
+                    // You can easily update a document to a library or attach to a list item.
+                    libraryRep.AddDocument("NewFolder/Image", "UploadFilePath.jpg");
+
+
                     // You can't get all SP fields via SPSiteDataQuery!
                     SPSiteDataQuery dataQuery = new SPSiteDataQuery();
                     dataQuery.Webs = "<Webs Scope=\"Recursive\">";

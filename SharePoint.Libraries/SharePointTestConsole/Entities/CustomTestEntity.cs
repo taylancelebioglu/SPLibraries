@@ -16,6 +16,10 @@ namespace SharePointTestConsole.Entities
         /// </summary>
         [SPFieldFlag(Name = "CurrencyField")]
         public double Currency { get; set; }
+
+        /// <summary>
+        /// This field won't be updated when AddUpdateItem method executed.
+        /// </summary>
         [SPFieldFlag(RestrictUpdate = true)]
         public DateTime? DateTimeField { get; set; }
         [SPFieldFlag(Name = "YesNoField")]
