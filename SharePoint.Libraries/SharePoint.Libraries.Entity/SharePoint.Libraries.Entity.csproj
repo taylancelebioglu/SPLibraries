@@ -79,6 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\SharePointLibraries_Entity_Key_File.snk" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\spentity_icon.png" />
