@@ -16,19 +16,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{3C614C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePoint.Libraries.Helper", "SharePoint.Libraries.Helper\SharePoint.Libraries.Helper.csproj", "{4F699E85-790A-4429-9291-3EE1AD0E2EF5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{57DB9FC1-049B-4EDD-A1B9-C7B1BB13353A}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entity", "Entity", "{37A65C7D-F377-4E76-96E7-3DCC6BC0488E}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{25490D77-FE4D-4A68-B3D8-39A0908C9464}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{C0202FB1-A1AA-4642-9FE5-37FBD254317E}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\Desktop\image001.jpg = ..\..\..\..\Desktop\image001.jpg
-		..\..\..\..\Desktop\image002.jpg = ..\..\..\..\Desktop\image002.jpg
-		..\..\..\..\Desktop\image003.jpg = ..\..\..\..\Desktop\image003.jpg
-		..\..\..\..\Desktop\image004.jpg = ..\..\..\..\Desktop\image004.jpg
-		..\..\..\..\Desktop\image005.jpg = ..\..\..\..\Desktop\image005.jpg
-		..\..\..\..\Desktop\image006.jpg = ..\..\..\..\Desktop\image006.jpg
-		..\..\..\..\Desktop\image007.jpg = ..\..\..\..\Desktop\image007.jpg
+		..\Files\image001.jpg = ..\Files\image001.jpg
+		..\Files\image002.jpg = ..\Files\image002.jpg
+		..\Files\image003.jpg = ..\Files\image003.jpg
+		..\Files\image004.jpg = ..\Files\image004.jpg
+		..\Files\image005.jpg = ..\Files\image005.jpg
+		..\Files\image006.jpg = ..\Files\image006.jpg
+		..\Files\image007.jpg = ..\Files\image007.jpg
 	EndProjectSection
 EndProject
 Global
@@ -55,7 +51,5 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F2C0211F-1206-44B9-9D69-0D956998738D} = {C67C036B-C29D-43C4-AB5A-F46C35F0CAD8}
-		{37A65C7D-F377-4E76-96E7-3DCC6BC0488E} = {57DB9FC1-049B-4EDD-A1B9-C7B1BB13353A}
-		{25490D77-FE4D-4A68-B3D8-39A0908C9464} = {37A65C7D-F377-4E76-96E7-3DCC6BC0488E}
 	EndGlobalSection
 EndGlobal
