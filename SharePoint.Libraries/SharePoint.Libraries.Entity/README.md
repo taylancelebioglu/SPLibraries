@@ -1251,45 +1251,38 @@ Consolas;color:black'>&nbsp;</span></p>
 Consolas;color:black'>&nbsp;</span></p>
 
 <p class=MsoNormal><img width=604 height=165 id="Resim 1"
-src="SPLibraries%20Entity_dosyalar/image001.jpg"></p>
+src="https://raw.githubusercontent.com/taylancelebioglu/SPLibraries/master/Files/SPEntity/ListView.jpg"></p>
 
 <p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoNormal><img width=356 height=180 id="Resim 2"
-src="SPLibraries%20Entity_dosyalar/image002.jpg"></p>
+src="https://raw.githubusercontent.com/taylancelebioglu/SPLibraries/master/Files/SPEntity/RepositoryMethods.jpg"></p>
 
 <p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoNormal><img width=604 height=297 id="Resim 3"
-src="SPLibraries%20Entity_dosyalar/image003.jpg"></p>
+src="https://raw.githubusercontent.com/taylancelebioglu/SPLibraries/master/Files/SPEntity/Result.jpg"></p>
 
 <p class=MsoNormal>&nbsp;</p>
 
-<p class=MsoNormal><img width=605 height=302 id="Resim 5"
-src="SPLibraries%20Entity_dosyalar/image004.jpg"></p>
+<p class=MsoNormal><img width=605 id="Resim 5"
+src="https://raw.githubusercontent.com/taylancelebioglu/SPLibraries/master/Files/SPEntity/Attachment.jpg"></p>
 
 <p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoNormal><img width=604 height=296 id="Resim 6"
-src="SPLibraries%20Entity_dosyalar/image005.jpg"></p>
+src="https://raw.githubusercontent.com/taylancelebioglu/SPLibraries/master/Files/SPEntity/images_libraryRep.jpg"></p>
 
 <p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoNormal>&nbsp;</p>
 
-<p class=MsoNormal><img width=335 height=220 id="Resim 8"
-src="SPLibraries%20Entity_dosyalar/image006.jpg"></p>
+<p class=MsoNormal><img width=750 id="Resim 8"
+src="https://raw.githubusercontent.com/taylancelebioglu/SPLibraries/master/Files/SPEntity/SiteRepository.jpg"></p>
 
-<p class=MsoNormal>&nbsp;</p>
 
-<p class=MsoNormal>&nbsp;</p>
-
-<p class=MsoNormal>&nbsp;</p>
-
-<p class=MsoNormal><img width=604 height=209 id="Resim 9"
-src="SPLibraries%20Entity_dosyalar/image007.jpg"></p>
 
 <p class=MsoNormal>&nbsp;</p>
 
