@@ -87,7 +87,7 @@ namespace SharePointTestConsole.Entities
         public DateTime? PublishingStartDate { get; set; }
  
         /// <summary>
-        /// This property won't be mapped because of lack of the SPFieldFlag attribute. It is for only internal use.
+        /// This property won't be mapped because of lack of the SPFieldFlag attribute. It is only for internal use.
         /// </summary>
         public string InternalProperty { get; set; }
     }
