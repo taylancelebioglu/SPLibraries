@@ -10,9 +10,6 @@ It supports all most common SharePoint fields including publishing and taxonomy 
 You need to derive you custom entity from EntityBase class. By doing that you will get basic SP fields such as ID, CreatedBy, Modified.
 
 ```csharp
-#region Assembly SharePoint.Libraries.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0be90ed3695f8b28
-// C:\Users\sa_spadmin\Source\Repos\SPLibraries\SharePoint.Libraries\packages\SharePoint.Libraries.Entity.1.0.2\lib\net452\SharePoint.Libraries.Entity.dll
-#endregion
  
 using System;
 using System.Collections.Generic;
@@ -59,7 +56,7 @@ namespace SharePointTestConsole.Entities
         [SPFieldFlag]
         public int NumberField { get; set; }
         /// <summary>
-        /// can be givven a different name rather than sp field's internal name
+        /// can be given a different name rather than sp field's internal name
         /// </summary>
         [SPFieldFlag(Name = "CurrencyField")]
         public double Currency { get; set; }
