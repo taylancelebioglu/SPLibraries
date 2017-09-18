@@ -20,6 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\SharePoint.Libraries.Helper.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -57,6 +58,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Search\Query\RefinementQueryBuilder.cs" />
+    <Compile Include="Search\Query\RefinementUrlQueryModel.cs" />
+    <Compile Include="Search\Query\UrlQueryModel.cs" />
     <Compile Include="Search\RefinerModel.cs" />
     <Compile Include="Search\SearchBaseRepository.cs" />
     <Compile Include="Search\SearchIgnoreAttribute.cs" />
@@ -69,6 +73,8 @@
     <None Include="app.config" />
     <None Include="packages.config" />
     <None Include="Properties\SharePointLibraries_Helper_Key_File.snk" />
+    <None Include="README.md" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

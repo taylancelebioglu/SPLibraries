@@ -21,6 +21,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SPEntity", "SPEntity", "{3146E810-CB50-4A44-AB19-F12A193057F7}"
 	ProjectSection(SolutionItems) = preProject
 		..\Files\SPEntity\Attachment.jpg = ..\Files\SPEntity\Attachment.jpg
+		..\Files\SPEntity\entityproject_icon.png = ..\Files\SPEntity\entityproject_icon.png
 		..\Files\SPEntity\images_libraryRep.jpg = ..\Files\SPEntity\images_libraryRep.jpg
 		..\Files\SPEntity\ListView.jpg = ..\Files\SPEntity\ListView.jpg
 		..\Files\SPEntity\RepositoryMethods.jpg = ..\Files\SPEntity\RepositoryMethods.jpg
@@ -31,6 +32,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5F271D32-3978-476A-9AAE-E36731F896D5}"
 	ProjectSection(SolutionItems) = preProject
 		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Search", "Search", "{B98B38F2-34D1-48B2-87F5-E80BF83F2F23}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Desktop\Filter_ManagedMetadata_Label.html = ..\..\..\..\Desktop\Filter_ManagedMetadata_Label.html
+		..\..\..\..\Desktop\Item_Ultimate_Diagnostic.html = ..\..\..\..\Desktop\Item_Ultimate_Diagnostic.html
+		Owners_Sources.txt = Owners_Sources.txt
 	EndProjectSection
 EndProject
 Global
@@ -58,5 +66,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F2C0211F-1206-44B9-9D69-0D956998738D} = {C67C036B-C29D-43C4-AB5A-F46C35F0CAD8}
 		{3146E810-CB50-4A44-AB19-F12A193057F7} = {C0202FB1-A1AA-4642-9FE5-37FBD254317E}
+		{B98B38F2-34D1-48B2-87F5-E80BF83F2F23} = {C0202FB1-A1AA-4642-9FE5-37FBD254317E}
 	EndGlobalSection
 EndGlobal
