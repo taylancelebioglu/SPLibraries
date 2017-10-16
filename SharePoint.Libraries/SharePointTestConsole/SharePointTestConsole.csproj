@@ -51,12 +51,15 @@
   <ItemGroup>
     <Compile Include="Entities\CustomTestEntity.cs" />
     <Compile Include="Entities\LibraryEntity.cs" />
+    <Compile Include="Entities\PageEntity.cs" />
+    <Compile Include="MetadataManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\CustomTestEntityRepository.cs" />
     <Compile Include="Repositories\CustomTestEntitySiteRepository.cs" />
     <Compile Include="Repositories\CustomTestSPRepository.cs" />
     <Compile Include="Repositories\ImagesLibraryRepository.cs" />
+    <Compile Include="Repositories\PageLibraryRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -172,7 +172,7 @@ namespace SharePoint.Libraries.Entity
         private void SetTaxonomyField(SPListItem item, string fieldName, PropertyInfo property, T currentEntity)
         {
             var fieldValue = property.GetValue(currentEntity, null);
-            var taxField = item.Fields[fieldName] as TaxonomyField;
+            var taxField = item.Fields.GetFieldByInternalName(fieldName) as TaxonomyField;
 
             if (taxField != null)
             {
