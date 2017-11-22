@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>SharePoint.Libraries.Entity</id>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <title>SharePoint Entity</title>
     <authors>Taylan Celebioglu</authors>
     <owners>Taylan Celebioglu</owners>

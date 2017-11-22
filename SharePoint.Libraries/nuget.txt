@@ -1,2 +1,2 @@
 nuget.exe spec
-nuget.exe pack "SharePoint.Libraries.Entity.nuspec"
+nuget.exe pack "SharePoint.Libraries.Entity.csproj"
