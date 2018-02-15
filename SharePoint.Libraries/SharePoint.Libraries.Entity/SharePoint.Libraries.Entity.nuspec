@@ -2,21 +2,23 @@
 <package >
   <metadata>
     <id>SharePoint.Libraries.Entity</id>
-    <version>1.0.4</version>
-    <title>SharePoint Entity</title>
+    <version>1.0.4.2013</version>
+    <title>SharePoint Entity (2013)</title>
     <authors>Taylan Celebioglu</authors>
     <owners>Taylan Celebioglu</owners>
     <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.en.html</licenseUrl>
     <projectUrl>https://github.com/taylancelebioglu/SPLibraries/tree/master/SharePoint.Libraries/SharePoint.Libraries.Entity</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/taylancelebioglu/SPLibraries/master/Files/SPEntity/entityproject_icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>A useful entity mapper for SharePoint 2016 SSOM API</description>
+    <description>A useful entity mapper for SharePoint 2013 SSOM API</description>
     <releaseNotes>Latest stable release, working with various projects.</releaseNotes>
-    <copyright>Copyright 2017</copyright>
-    <tags>SharePoint 2016 Entity Mapper DAL SPListItem SPList ListItem</tags>
-    <!--<dependencies>
-      <dependency id="Newtonsoft.Json" version="8.0.3" />
-    </dependencies>-->
+    <copyright>Copyright 2018</copyright>
+    <tags>SharePoint 2013 Entity Mapper DAL SPListItem SPList ListItem</tags>
+	<dependencies>	
+      <dependency id="SharePoint" version="15.0.0" />
+	  <dependency id="Microsoft.SharePoint.Publishing" version="15.0.4867.1000" />
+	  <dependency id="Microsoft.SharePoint.Taxonomy" version="15.0.0" />
+	</dependencies>
   </metadata>
   <files>
     <file src="..\SharePoint.Libraries.Entity\bin\Release\SharePoint.Libraries.Entity.dll" target="lib\net452\SharePoint.Libraries.Entity.dll" />
