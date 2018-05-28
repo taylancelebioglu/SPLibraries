@@ -128,7 +128,13 @@ namespace SharePoint.Libraries.Entity
                             List<IAttachmentEntity> attachments = property.GetValue(entity, null) as List<IAttachmentEntity>;
                             if (attachments != null && attachments.Count > 0)
                             {
-                                attachments.ForEach(a => item.Attachments.Add(a.FileName, a.FileBytes));
+                                attachments.ForEach((a) =>
+                                {
+                                    if (a.FileBytes != null && !string.IsNullOrEmpty(a.FileName))
+                                    {
+                                        item.Attachments.Add(a.FileName, a.FileBytes);
+                                    }
+                                });
                             }
                         }
                         else
